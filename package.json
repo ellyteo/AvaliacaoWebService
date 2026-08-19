@@ -1,0 +1,25 @@
+{
+  "name": "avaliacaowebservice",
+  "version": "0.0.1",
+  "description": "Avaliacao",
+  "homepage": "https://github.com/ellyteo/AvaliacaoWebService#readme",
+  "bugs": {
+    "url": "https://github.com/ellyteo/AvaliacaoWebService/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ellyteo/AvaliacaoWebService.git"
+  },
+  "license": "ISC",
+  "author": "Gabriélly",
+  "type": "commonjs",
+  "main": "index.js",
+  "scripts": {
+    "dev": "node --watch index.js",
+    "test": "jest",
+    "prod": "node index.js"
+  },
+  "dependencies": {
+    "express": "^5.2.1"
+  }
+}
