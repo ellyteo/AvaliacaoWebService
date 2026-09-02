@@ -11,15 +11,15 @@ Serviço web em Node.js/Express que executa operações CRUD (GET, POST, PUT E D
 
 ### Endpoints
 
-- "/livros/criar" (POST) - Endpoint para a criação de um novo livro.
+- "/livros" (POST) - Endpoint para a criação de um novo livro.
 
-- "/livros/buscar/:id" (GET) - Endpoint para usca de um livro por meio do ID registrado.
+- "/livros/:id" (GET) - Endpoint para usca de um livro por meio do ID registrado.
 
-- "/livros/filtrar" (GET) - Endpoint para filtrar a busca de livros registrados por meio do nome e/ou autor.
+- "/livros" (GET) - Endpoint para filtrar a busca de livros registrados por meio do nome e/ou autor.
 
-- "/livros/alterar/:id" (PUT) - Endpoint para alterar informações (nome/autor) de um livro já criado (a busca do livro para alteração é por meio do ID registrado).
+- "/livros/:id" (PUT) - Endpoint para alterar informações (nome/autor) de um livro já criado (a busca do livro para alteração é por meio do ID registrado).
 
-- "/livros/deletar/:id" (DELETE) - Endpoint que deleta um livro por meio do ID registrado.
+- "/livros/:id" (DELETE) - Endpoint que deleta um livro por meio do ID registrado.
 
 ### Decisões técnicas
 
