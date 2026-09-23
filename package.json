@@ -12,14 +12,22 @@
   },
   "license": "ISC",
   "author": "Gabriélly",
-  "type": "commonjs",
+  "type": "module",
   "main": "index.js",
   "scripts": {
     "dev": "node --watch index.js",
-    "test": "jest",
+    "test": "cross-env TEST=true node --experimental-vm-modules node_modules/jest/bin/jest.js --coverage",
     "prod": "node index.js"
   },
   "dependencies": {
-    "express": "^5.2.1"
+    "cors": "^2.8.6",
+    "express": "^5.2.1",
+    "swagger-jsdoc": "^6.3.0",
+    "swagger-ui-express": "^5.0.1"
+  },
+  "devDependencies": {
+    "cross-env": "^10.1.0",
+    "jest": "^30.4.2",
+    "supertest": "^7.2.2"
   }
 }
