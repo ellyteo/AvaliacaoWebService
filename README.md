@@ -30,7 +30,7 @@ Serviço web em Node.js/Express que executa operações CRUD (GET, POST, PUT E D
 ### Como instalar/rodar
 
 1. Clonar o repositório do GitHub na sua máquina localmente;
-2. Abrir o terminal Git Bash dentro repositório já clonado e executar `npm init` para iniciar e `npm install express` para iniciar o express.
+2. Abrir o terminal Git Bash dentro repositório já clonado e executar `npm install` para instalar.
 3. Para rodar deve abrir o terminal Git Bash dentro repositório e executar `npm run dev` para iniciar a executá-lo.
 4. Para utilizar os endpoints, abra o Postman e de acordo com cada ação o configure. Exemplo: "/livros/buscar/:id" (GET) -
 coloque para rodar como GET e na URL `http://localhost:3000/livros/buscar/1` (se o livro estiver registrado ele deve ser retornado juntamente com o status 200 de sucesso). Caso o id/livro buscado não exista será retornado o erro 404 (erro do usuário).
